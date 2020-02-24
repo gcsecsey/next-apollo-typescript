@@ -10,8 +10,8 @@
 
 ## Demo
 
-This version: https://codesandbox.io/s/github/gcsecsey/next-apollo-typescript
-JS version: https://next-with-apollo.now.sh
+- TypeScript version: https://codesandbox.io/s/github/gcsecsey/next-apollo-typescript
+- JS version: https://next-with-apollo.now.sh
 
 ## How to use
 
