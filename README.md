@@ -2,10 +2,10 @@
 
 ## Changes to work with Typescript
 
-  - A (tsconfig file)[tsconfig.json)] has been created using the default values from Next and also extending it for strict type checking
-  - Types have been added to the (Apollo connector)[lib/apollo.tsx]. Types are used from the `apollo-client`, `apollo-cache-inmemory` and `@apollo/react-hooks` libraries.
-  - GraphQL queries and mutations have been structured out to a separate (graphql)[graphql] folder for easier reusability, testing and code generation.
-  - I used the (graphql-code-generator)[https://github.com/dotansimha/graphql-code-generator] to generate types based on the schema and the GraphQL queries/mutations. This enables type checking and intellisense on DTOs.
+  - A [tsconfig file](tsconfig.json) has been created using the default values from Next and also extending it for strict type checking
+  - Types have been added to the [Apollo connector](lib/apollo.tsx). Types are used from the `apollo-client`, `apollo-cache-inmemory` and `@apollo/react-hooks` libraries.
+  - GraphQL queries and mutations have been structured out to a separate [graphql](graphql) folder for easier reusability, testing and code generation.
+  - I used the [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) to generate types based on the schema and the GraphQL queries/mutations. This enables type checking and intellisense on DTOs.
   - All the components have been converted to TSX, default imports have been replaced by names ones.
 
 ## Demo
